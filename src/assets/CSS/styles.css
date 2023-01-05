@@ -1,0 +1,328 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #000;
+}
+.header .container .menu .nav {
+  align-items: center;
+}
+.header .container .menu .nav li a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f7f7f7;
+  margin-right: 20px;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header .container .menu .nav li .icon {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  margin-right: 10px;
+}
+.menu_1 {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.menu_1 ul {
+  margin-top: 16px;
+}
+.menu_1 ul li a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-right: 40px;
+}
+.register{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.register .container h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 62px;
+}
+.register .container form {
+  justify-content: space-between;
+}
+.register .container form .textInput {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 482px;
+  height: 51px;
+  margin-bottom: 30px;
+}
+.register .container form .textInput::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ae18e2;
+}
+.register .container form .textInput .validation {
+  color: red;
+}
+.register .container form .textInput .validation span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.register .container form .input {
+  border: none;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000 !important;
+}
+.register .container form .input:focus {
+  outline: 0;
+}
+.register .container form .right .inputGender,
+.register .container form .right h6 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+.register .container form .right .inputGender input {
+  background: #d9d9d9;
+}
+.register .container form .right .inputGender input[type="radio"]:checked {
+  background: #ae18e2;
+  border-color: #d9d9d9 !important;
+}
+.register .container form .right .submit {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fffcfc;
+  padding: 12px 90px;
+  background: #ae18e2;
+  border: none;
+}
+.footer .container {
+  max-width: 100%;
+  padding: 0 0;
+}
+.footer .container .top {
+  width: 100%;
+  background-color: #e2e0e2;
+}
+.footer .container .bottom {
+  width: 100%;
+  background-color: #aaa0aa;
+}
+.footer .container .row {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.footer .container .row div h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.footer .container .row div ul {
+  padding-left: 0;
+}
+.footer .container .row div ul li {
+  list-style: none;
+}
+.footer .container .row div ul li a {
+  color: #000;
+}
+.login {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: 70px;
+  width: 104px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 108px;
+  color: #000000;
+}
+.formLogin{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.emailLogin,.passwordLogin{
+margin-bottom: 20px;
+}
+.emailLogin input,.passwordLogin input{
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  width: 443px;
+  height: 54px;
+}
+.submitLogin{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.submitLogin .registerNow{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.135px;
+margin-right: 35px;
+color: rgba(21, 42, 235, 0.8);
+}
+.btnLogin{
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+border-radius: 50px;
+padding: 12px 40px;
+background: #6200EE;}
+.btnLogin:hover{
+background:#6200EE !important;
+}
+.fb-login{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.my-facebook-button-class{
+  padding: 10px;
+  color: white;
+  background: #1877F2;
+box-shadow: 0px 38.4869px 71.4756px rgba(0, 0, 0, 0.07);
+border-radius: 20.9968px;
+border: none;
+width: 450px;
+}
+
+/* profilr update */
+.title-profile{
+  height: 74px;
+  width: 575px;
+  left: 0px;
+  top: 47px;
+  border-radius: 0px;
+  background: linear-gradient(180deg, #F21299 0%, #1B02B5 100%);
+  
+}
+.title-profile span{
+  width: 121px;
+height: 48px;
+left: 34px;
+top: 60px;
+margin-left: 35px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFEFE;
+}
+.update-profile{
+
+ max-width: 1280px;
+ margin: 0 auto;
+ margin-top: 30px;
+  display: flex;
+}
+.update-profile .img {
+  width: 225px;
+  height: 225px;
+}
+.update-profile .img img{
+  width: 225px;
+  height: 225px;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.update-profile form {
+  justify-content: space-between;
+}
+.update-profile form .textInput {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 482px;
+  height: 51px;
+  margin-bottom: 30px;
+}
+.update-profile form .textInput::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ae18e2;
+}
+.update-profile form .textInput .validation {
+  color: red;
+}
+.update-profile form .textInput .validation span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.update-profile form .input {
+  border: none;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000 !important;
+}
+.update-profile form .input:focus {
+  outline: 0;
+}
+.update-profile form .right .inputGender,
+.update-profile form .right h6 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+.update-profile form .right .inputGender input {
+  background: #d9d9d9;
+}
+.update-profile form .right .inputGender input[type="radio"]:checked {
+  background: #ae18e2;
+  border-color: #d9d9d9 !important;
+}
+.update-profile form .right .submit {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fffcfc;
+  padding: 12px 90px;
+  background: #ae18e2;
+  border: none;
+}
+.imgOder{
+  width: 50px;
+}

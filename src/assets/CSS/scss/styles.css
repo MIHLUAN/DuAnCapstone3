@@ -365,12 +365,12 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
-.login {
+/* .login {
   width: 442px;
   margin-left: 432px;
   margin-top: 117px;
   margin-bottom: 30px;
-}
+} */
 .login p {
   font-size: 18px;
   font-weight: 500px;
